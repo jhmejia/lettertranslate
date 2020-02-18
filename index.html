@@ -66,7 +66,7 @@ limitations under the License.
         <div class="hyper-params">
 
           <!-- Learning rate -->
-          <div class="dropdown">
+          <div hidden class="dropdown">
             <label>Learning rate</label>
             <div class="select">
               <select id="learningRate">
@@ -79,7 +79,7 @@ limitations under the License.
           </div>
 
           <!-- Batch size -->
-          <div class="dropdown">
+          <div hidden class="dropdown">
             <label>Batch size</label>
             <div class="select">
               <select id="batchSizeFraction">
@@ -92,7 +92,7 @@ limitations under the License.
           </div>
 
           <!-- Epochs -->
-          <div class="dropdown">
+          <div hidden class="dropdown">
             <label>Epochs</label>
             <div class="select">
               <select id="epochs">
@@ -104,7 +104,7 @@ limitations under the License.
           </div>
 
           <!-- Hidden units -->
-          <div class="dropdown">
+          <div hidden class="dropdown">
             <label>Hidden units</label>
             <div class="select">
               <select id="dense-units">
@@ -146,7 +146,7 @@ limitations under the License.
               <div class="thumb-box-inner">
                 <canvas class="thumb" width=224 height=224 id="up-thumb"></canvas>
               </div>
-              <button class="record-button" id="up"/><span>Add Sample</span></button>
+              <button class="record-button" id="up"/><span>Add Sample A</span></button>
             </div>
             <p>
               <span id="up-total">0</span> examples
@@ -165,7 +165,7 @@ limitations under the License.
               <div class="thumb-box-inner">
                 <canvas class="thumb" width=224 height=224 id="left-thumb"></canvas>
               </div>
-              <button class="record-button" id="left"/><span>Add Sample</span></button>
+              <button class="record-button" id="left"/><span>Add Sample B</span></button>
             </div>
             <p>
               <span id="left-total">0</span> examples
@@ -181,9 +181,9 @@ limitations under the License.
           <div class="thumb-box">
             <div class="thumb-box-outer">
               <div class="thumb-box-inner">
-                <canvas class="thumb" width=224 height=224 id="left-thumb"></canvas>
+                <canvas class="thumb" width=224 height=224 id="c-thumb"></canvas>
               </div>
-              <button class="record-button" id="left"/><span>Add Sample</span></button>
+              <button class="record-button" id="left"/><span>Add Sample C</span></button>
             </div>
             <p>
               <span id="left-total">0</span> examples
@@ -193,9 +193,6 @@ limitations under the License.
   
   
     
-        <div class="panel-cell panel-cell-center panel-cell-fill">
-          <img hidden height="108" width="129" src="./images/joystick.png" />
-        </div><!-- ./panel-cell -->
 
         <div class="panel-cell panel-cell-right">
           <div class="thumb-box">
@@ -203,13 +200,34 @@ limitations under the License.
               <div class="thumb-box-inner">
                 <canvas class="thumb" width=224 height=224 id="right-thumb"></canvas>
               </div>
-              <button class="record-button" id="right"/><span>Add Sample</span></button>
+              <button class="record-button" id="right"/><span>Add Sample D</span></button>
             </div>
             <p>
               <span id="right-total">0</span> examples
             </p>
           </div>
         </div><!-- ./panel-cell -->
+
+  
+  <!-- ADDED -->
+        </div><!-- /.panel-row -->
+      <div class="panel-row panel-row-middle">
+        <div class="panel-cell panel-cell-left">
+          <div class="thumb-box">
+            <div class="thumb-box-outer">
+              <div class="thumb-box-inner">
+                <canvas class="thumb" width=224 height=224 id="c-thumb"></canvas>
+              </div>
+              <button class="record-button" id="left"/><span>Add Sample E</span></button>
+            </div>
+            <p>
+              <span id="left-total">0</span> examples
+            </p>
+          </div>
+        </div><!-- ./panel-cell -->
+  
+
+
 
       </div><!-- /.panel-row -->
 
@@ -224,7 +242,7 @@ limitations under the License.
               <div class="thumb-box-inner">
                 <canvas class="thumb" width=224 height=224 id="down-thumb"></canvas>
               </div>
-              <button class="record-button" id="down"/><span>Add Sample</span></button>
+              <button class="record-button" id="down"/><span>Add Sample F</span></button>
             </div>
             <p>
               <span id="down-total">0</span> examples
@@ -242,7 +260,7 @@ limitations under the License.
 
   </div><!-- /#controller -->
 
-<p id="copyright">&trade; &copy; <a href="https://acehernandez.github.io/2xxtemplate/">2xx.</a> All rights reserved.<br> This is a Pure Javascript implementation of: <a href="https://github.com/tensorflow/tfjs-examples/tree/master/webcam-transfer-learning" target="_blank" rel="noopener">webcam-transfer-learning</a>.<br> Thank you <a href="https://js.tensorflow.org" target="_blank" rel="noopener">TensorFlow.js</a> for your flexible and intuitive APIs.</p>
+<p id="copyright"> &copy; <a href="https://acehernandez.github.io/2xxtemplate/">2xx.</a> All rights reserved.<br> This is a Pure Javascript implementation of: <a href="https://github.com/tensorflow/tfjs-examples/tree/master/webcam-transfer-learning" target="_blank" rel="noopener">webcam-transfer-learning</a>.<br> Thank you <a href="https://js.tensorflow.org" target="_blank" rel="noopener">TensorFlow.js</a> for your flexible and intuitive APIs.</p>
 
   <script src="https://storage.googleapis.com/tfjs-examples/assets/webcam-transfer-learning/pacman-google.js"></script>
   
