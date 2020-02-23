@@ -194,10 +194,11 @@ header b {
   display: flex;
   justify-content: center;
   overflow: hidden;
-  width: 160px;
+  width: 200px;
+  width: 200px;
 }
 #webcam {
-  height: 160px;
+  height: 200px;
   transform: scaleX(-1);
 }
 .hyper-params {
