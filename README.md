@@ -16,4 +16,6 @@ This is a Pure Javascript implementation of: https://github.com/tensorflow/tfjs-
 
 
 [Learn more](https://acehernandez.github.io/2xxtemplate/)
+
+
 [Check out more about me](https://johnhmejia.github.io/)
