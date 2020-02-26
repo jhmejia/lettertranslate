@@ -1,5 +1,5 @@
 # Transfer Learning to Recognize Letters via the Webcam
-INSTRUCTIONS:
+##Instructions:
 
 1. Open up [the demo](https://johnhmejia.github.io/lettertranslate/)
 
@@ -12,10 +12,9 @@ INSTRUCTIONS:
 5. Wait for the model to finish training; then press start! The program should highlight the letter it thinks you're signing.
 
 
+####[Learn more](https://acehernandez.github.io/2xxtemplate/)
 
-[Learn more](https://acehernandez.github.io/2xxtemplate/)
-
-
+**About the demo:**
 
 This example shows you how to predict letters from a webcam using transfer learning.
 
@@ -29,4 +28,4 @@ This is a Pure Javascript implementation of: https://github.com/tensorflow/tfjs-
 
 
 
-[Check out more about me](https://johnhmejia.github.io/)
+######[Check out more about me](https://johnhmejia.github.io/)
